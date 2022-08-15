@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #444;
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+    width: 100vw;
+}
+
+h1{
+    color: yellow;
+    font-size:60px;
+    display: flex;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 385px;
+    height: 300px;
+}
+
+.card{
+    display: flex;
+    padding: 3px;
+    width: 390px;
+    height: 500px;
+    border-radius: 8px;
+    background-color: #cfe2e3;
+    justify-content: center;
+}
+
+.containerCard{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
