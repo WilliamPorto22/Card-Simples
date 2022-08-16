@@ -8,7 +8,7 @@ body{
     align-items: center;
     justify-content: center;
     background-color: #444;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: cursive;
     height: 100vh;
     width: 100vw;
 }
@@ -22,10 +22,22 @@ h1{
     word-spacing: 0;
     letter-spacing: 3px;
 }
+h2{
+    color: #000;
+    font-size: larger;
+    word-spacing: 0;
+    letter-spacing: 0;;
+}
 
 img {
     width: 385px;
     height: 300px;
+}
+p{
+    font-size: medium;
+    color: black;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
 }
 
 .card{
