@@ -14,10 +14,12 @@ body{
 
 h1{
     color: yellow;
-    font-size:60px;
+    font-size: 60px;
     display: flex;
     text-align: center;
     margin-bottom: 20px;
+    word-spacing: 0;
+    letter-spacing: 3px;
 }
 
 img {
@@ -27,12 +29,13 @@ img {
 
 .card{
     display: flex;
+    flex-direction: column;
     padding: 3px;
     width: 390px;
     height: 500px;
     border-radius: 8px;
     background-color: #cfe2e3;
-    justify-content: center;
+    
 }
 
 .containerCard{
