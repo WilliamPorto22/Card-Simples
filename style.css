@@ -37,7 +37,6 @@ p{
     font-size: x-large;
     color: black;
     margin-top: 1vh;
-    margin-bottom: 1vh;
 }
 
 .card{
@@ -61,14 +60,14 @@ p{
 }
 
 .preco-de{
-    padding: 10px 0px;
+    padding: 0px 0px;
     font-size: 20px;
     color: #ff0000;
     margin-left: 17vh;
 }
 
 .preco-por{
-    padding: 10px;
+    padding: 0px 7px;
     font-size: 24px;
     color: #17c517;
     font-weight: bold;
